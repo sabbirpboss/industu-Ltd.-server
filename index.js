@@ -278,7 +278,7 @@ const run = async () => {
 run().catch(console.dir);
 
 app.get("/", (req, res) => {
-  res.send("industo app is running successfully !");
+  res.send("industo app is running successfully!");
 });
 
 app.listen(port, () => {
